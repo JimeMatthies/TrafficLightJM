@@ -1,4 +1,41 @@
 body {
-    background-color: white;
-    padding-top: 96px !important;
+    background-color: blueviolet;
+}
+
+.traffic-top {
+    background-color: black;
+    width: 10px;
+    height: 70px;
+}
+
+.traffic-container {
+    background-color: black;
+    width: 74px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.light {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.red {
+    background-color: rgb(240, 36, 0);
+}
+
+.yellow {
+    background-color: rgb(255, 251, 0);
+}
+
+.green {
+    background-color: rgb(5, 153, 109);
+}
+
+.selected {
+    box-shadow: #f8ffcc 0px 0px 50px 20px;
 }
